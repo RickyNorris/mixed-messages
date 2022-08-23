@@ -1,8 +1,8 @@
-# Mixed Messages Gay 
+# Mixed Messages - Whats for dinner
 
 ## Discription 
 
-In the CodeCademy Full-Stack programming course we are making a javacript program that will return a randomized mixed message with the words of my choosing, the program will return a cohesive but short sentance that should make sence when read.
+In the CodeCademy Full-Stack programming course we are making a javacript program that will return a randomized mixed message with the words of my choosing, the program will help with one of the worst questions you could ever ask your partner, what do you want for dinner? Oh No, if you have ever had that question and just said i dont care, you need this program!!!!
 
 ## How to use the project
 

@@ -1,6 +1,25 @@
-const firstWord = ['You', 'They', 'He', 'She', 'Your Mom', 'Your Daddy'];
+const first = ['order', 'go out to get', 'stay in and make', 'try some'];
 
-const secondWord = ['like', 'love', 'hate', 'want to', 'need', 'use'];
-const secondWordPluril = ['likes', 'loves', 'hates', 'wants to', 'needs', 'uses'];
+const second = ['pizza', 'chineese', 'ozmos', 'pasta', 'japaneese', 'greek', 'steak', 'burgers', 'wings', 'seafood', 'mexican'];
 
-const lastWord = ['bottoming', 'going out'];
+const last = ['invite a friend', 'add some spice', 'have it with a drink', 'add some wine', 'have it with salad', 'make it healthey', 'get high first'];
+
+const makeRandomNumber = (array) => {
+    return Math.floor(Math.random() * array.length);
+};
+
+// console.log(makeRandomNumber(secondWord));
+
+const whatsForDinner = () => {
+    const firstPart = first[makeRandomNumber(first)];
+    // console.log(firstPart);
+    const secondPart = second[makeRandomNumber(second)];
+    // console.log(secondPart);
+    const lastPart = last[makeRandomNumber(last)];
+    // console.log(lastPart);
+
+    console.log('Trouble figuring out something for dinner?');
+    console.log(`Maybe you should ${firstPart} ${secondPart} and ${lastPart}!!`);
+};
+
+whatsForDinner();
